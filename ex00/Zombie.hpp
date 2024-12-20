@@ -6,7 +6,7 @@
 /*   By: bde-wits <bde-wits@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/20 06:43:48 by bde-wits          #+#    #+#             */
-/*   Updated: 2024/12/20 10:05:08 by bde-wits         ###   ########.fr       */
+/*   Updated: 2024/12/20 10:21:05 by bde-wits         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,21 +23,13 @@
 class Zombie
 {
 	public:
-		Zombie(std::string name);
+		Zombie(std::string named);
 		~Zombie();
 		void announce( void );
 	private: /* data */
 		std::string	name;
 };
 
-Zombie::Zombie(std::string name)
-{
-	this->name = "luigi";
-}
-
-Zombie::~Zombie()
-{
-}
 void	randomChump(std::string name);
 Zombie* newZombie(std::string name );
 
