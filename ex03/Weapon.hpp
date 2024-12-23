@@ -6,7 +6,7 @@
 /*   By: bde-wits <bde-wits@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/21 00:09:20 by bde-wits          #+#    #+#             */
-/*   Updated: 2024/12/21 05:05:09 by bde-wits         ###   ########.fr       */
+/*   Updated: 2024/12/23 10:00:41 by bde-wits         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,18 +27,18 @@ class Weapon
 	public:
 		Weapon(std::string type);
 		~Weapon();
-		const std::string &getType() const;
+		std::string const &getType();
 		void setType(std::string newtype);
 	private:
 		std::string	type;
 };
 
-Weapon::Weapon(std::string type)
-{
-	this->type = type;
-}
+// Weapon::Weapon(std::string type)
+// {
+// 	this->type = type;
+// }
 
-Weapon::~Weapon()
-{
-}
+// Weapon::~Weapon()
+// {
+// }
 #endif
