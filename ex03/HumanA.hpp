@@ -6,7 +6,7 @@
 /*   By: bde-wits <bde-wits@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/21 00:17:28 by bde-wits          #+#    #+#             */
-/*   Updated: 2024/12/23 10:21:06 by bde-wits         ###   ########.fr       */
+/*   Updated: 2024/12/23 13:59:30 by bde-wits         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,16 +30,5 @@ class HumanA
 	private:
 		Weapon	&weapon;
 };
-
-// HumanA::HumanA(std::string name, Weapon &Weapon) : name(name), weapon(weapon)
-// {
-// 	// this->name = name;
-// 	// this->weapon = Weapon;
-// }
-
-// HumanA::~HumanA()
-// {
-// }
-
 
 #endif

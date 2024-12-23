@@ -6,7 +6,7 @@
 /*   By: bde-wits <bde-wits@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/21 00:09:20 by bde-wits          #+#    #+#             */
-/*   Updated: 2024/12/23 10:00:41 by bde-wits         ###   ########.fr       */
+/*   Updated: 2024/12/23 13:58:41 by bde-wits         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@
 #include <string>
 #include <iomanip>
 #include <iostream>
-// #include "HumanA.hpp"
 
 class Weapon
 {
@@ -33,12 +32,4 @@ class Weapon
 		std::string	type;
 };
 
-// Weapon::Weapon(std::string type)
-// {
-// 	this->type = type;
-// }
-
-// Weapon::~Weapon()
-// {
-// }
 #endif
