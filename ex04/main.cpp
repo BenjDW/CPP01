@@ -6,7 +6,7 @@
 /*   By: bde-wits <bde-wits@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/23 14:05:49 by bde-wits          #+#    #+#             */
-/*   Updated: 2025/01/07 11:39:42 by bde-wits         ###   ########.fr       */
+/*   Updated: 2025/01/07 11:45:17 by bde-wits         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ int	main(int argc, char **argv)
 	s1 = argv[2];
 	s2 = argv[3];
 	lens1 = s1.length();
-	fd_in.open(filename);
+	fd_in.open(filename.c_str());
 	if (!fd_in)
 	{
 		std::cerr << "file not found" << std::endl;
