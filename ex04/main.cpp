@@ -6,7 +6,7 @@
 /*   By: bde-wits <bde-wits@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/23 14:05:49 by bde-wits          #+#    #+#             */
-/*   Updated: 2025/01/07 11:45:17 by bde-wits         ###   ########.fr       */
+/*   Updated: 2025/01/07 11:52:20 by bde-wits         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,10 +37,6 @@ int	main(int argc, char **argv)
 	{
 		std::cerr << "file not found" << std::endl;
 		return (1);
-	}
-	else
-	{
-		std::cerr << "file found" << std::endl;
 	}
 	if (s1.empty() || s2.empty())
 		return (std::cerr << "error s1 or s2 is empty" << std::endl, 1);
