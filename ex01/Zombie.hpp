@@ -6,7 +6,7 @@
 /*   By: bde-wits <bde-wits@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/20 10:34:15 by bde-wits          #+#    #+#             */
-/*   Updated: 2024/12/20 13:39:20 by bde-wits         ###   ########.fr       */
+/*   Updated: 2025/01/08 05:47:06 by bde-wits         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,18 +28,9 @@ class Zombie
 		~Zombie();
 		void announce( void );
 		void setname(std::string name);
-	private: /* data */
+	private:
 		std::string	name;
 };
 Zombie* zombieHorde( int N, std::string name );
-
-// Zombie::Zombie()
-// {
-// 	// this->name = named;
-// }
-
-// Zombie::~Zombie()
-// {
-// }
 
 #endif
