@@ -6,7 +6,7 @@
 /*   By: bde-wits <bde-wits@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/21 00:17:46 by bde-wits          #+#    #+#             */
-/*   Updated: 2024/12/23 13:50:28 by bde-wits         ###   ########.fr       */
+/*   Updated: 2025/01/08 05:49:00 by bde-wits         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@
 #include <iomanip>
 #include <iostream>
 #include "Weapon.hpp"
-// Now, create two classes: HumanA and HumanB. They both have a Weapon and a
-// name. They also have a member function attack() 
 
 class HumanB
 {
